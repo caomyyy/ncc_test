@@ -1,0 +1,88 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #FFFFFF;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 162px;
+    background-color: #FFFFFF;
+}
+
+.logo {
+    position: absolute;
+    width: 310px;
+    height: 122px;
+
+}
+
+.section2 {
+    background-color: #EFEFEF;
+    text-align: center;
+    padding: 20px;
+}
+
+.section2 .text-line1 {
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21px;
+    letter-spacing: 0em;
+    color: #000000;
+}
+
+.section2 .text-line2 {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    color: #000000;
+
+}
+
+.section3 {
+    display: flex;
+}
+
+.column {
+    flex: 1;
+    text-align: left;
+    padding: 20px; 
+    display: block;
+}
+
+.column .header {
+    position: absolute; 
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    display: block; 
+    color: #000000;
+
+
+}
+
+.column .icon {
+    height: 128px;
+    width: 128px;
+    left: 279px;
+    top: 1406px; 
+    float: left; 
+
+}
+
+.column .text {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    color: #000000;
+    
+}
